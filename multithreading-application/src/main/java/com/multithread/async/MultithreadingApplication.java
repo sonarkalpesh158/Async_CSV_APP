@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MultithreadingApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MultithreadingApplication.class, args);
-	}
+		SpringApplication.run(MultithreadingApplication.class, args);}
 
 }

@@ -20,6 +20,5 @@ public class AsyncConfig {
         executor.setQueueCapacity(100);
         executor.setThreadNamePrefix("userThread-");
         executor.initialize();
-        return executor;
-    }
+        return executor;}
 }
